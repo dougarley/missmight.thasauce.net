@@ -262,11 +262,13 @@ button {
   }
 
   .video-download {
-    display: none;
+    position: absolute;
+    top: 100px;
   }
 
 .content {
-    display: none;
+    position: absolute;
+    top: 1000px;
   }
 }
 

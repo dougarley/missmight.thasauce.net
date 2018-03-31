@@ -248,7 +248,26 @@ button {
   height: 80%;
 }
 
-@media (min-width: 400px){
+.responsive-video {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.responsive-video iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+@media (max-width: 400px){
+  iframe {
+    width: 100%;
+    height: auto;
+  }
+
   .more-stuff {
     margin-top: -2500px;
   }
@@ -258,7 +277,7 @@ button {
   }
 }
 
-@media (min-width: 375px){
+@media (max-width: 375px){
   .more-stuff {
     margin-top: -2500px;
   }

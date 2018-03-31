@@ -247,3 +247,24 @@ button {
 .fill {
   height: 80%;
 }
+
+@media (min-width: 400px){
+  .more-stuff {
+    margin-top: -2500px;
+  }
+
+.content {
+    margin-top: 1500px;
+  }
+}
+
+@media (min-width: 375px){
+  .more-stuff {
+    margin-top: -2500px;
+  }
+
+.content {
+    margin-top: 2000px;
+    width: 100%;
+  }
+}

@@ -192,18 +192,13 @@ button {
 }
 
 
-.more-stuff {
+.video-download {
   position: relative;
   background-color: transparent;
-  font-family: "Arial";
-  letter-spacing: 10px;
-  text-transform: uppercase;
   line-height: 40px;
   z-index: 10;
   width: 100%;
-  font-size: 15px;
   text-align: center;
-  color: white;
   margin-top: -1200px;
   -webkit-transform: translateZ(-2px) scale(3);
           transform: translateZ(-2px) scale(3);
@@ -262,6 +257,10 @@ button {
 }
 
 @media only screen and (min-device-width: 320px) and (max-width: 480px){
+  .building {
+    display: none;
+  }
+
   .more-stuff {
     margin-top: 0px;
     position: absolute;
@@ -271,7 +270,7 @@ button {
 .content {
     margin-top: 24px;
     position: absolute;
-    top: 1000px;
+    top: 0px;
   }
 }
 

@@ -256,7 +256,7 @@ button {
     position:absolute;
 }
 
-@media only screen and (min-device-width: 320px) and (max-width: 480px){
+@media only screen and (min-device-width: 320px) and (max-width: 640px){
   .building {
     display: none;
   }

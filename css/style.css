@@ -210,13 +210,7 @@ button {
   -webkit-transform: translateZ(-2px) scale(3);
           transform: translateZ(-2px) scale(3);
 }
-/*
-.content ol {
-  width: 1000px;
-  margin: 0 auto;
-  text-align: left;
-}
-*/
+
 .building {
   height: 1893px;
   width: 500px;

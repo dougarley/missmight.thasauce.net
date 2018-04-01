@@ -24,15 +24,20 @@
 }
 
 button {
+  font-family: "MegaMan 2 Regular";
   width: 560px;
   height: 48px;
   margin: 8px auto;
   margin-left: -12px;
   margin-bottom: 48px;
-  border-radius: 2px;
+  border-radius: 4px;
   border: 1px solid #aaa;
   padding: 0;
   background: #ccc;
+}
+
+button:hover {
+  background: #eee;
 }
 
 .layer {

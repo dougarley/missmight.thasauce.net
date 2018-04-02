@@ -323,3 +323,21 @@
   }
 }
 
+@media only screen and (max-height:740px) {
+  .video-download {
+    top: -900px;
+  }
+}
+
+
+@media only screen and (max-height:740px) {
+  .video-download {
+    top: -900px;
+  }
+}
+
+@media only screen and (max-height:559px) {
+  .video-download {
+    top: -300px;
+  }
+}

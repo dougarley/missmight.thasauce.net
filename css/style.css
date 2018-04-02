@@ -34,6 +34,10 @@
   border: 1px solid #aaa;
   padding: 0;
   background: #ccc;
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  padding-top: 3px;
 }
 
 .button:hover {

@@ -23,7 +23,7 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#818faa', endColorstr='#d08669',GradientType=0 );
 }
 
-button {
+.button {
   font-family: "MegaMan 2 Regular";
   width: 560px;
   height: 48px;
@@ -36,7 +36,7 @@ button {
   background: #ccc;
 }
 
-button:hover {
+.button:hover {
   background: #eee;
 }
 
@@ -305,7 +305,7 @@ button:hover {
     width: 100%;
   }
 
-  button {
+  .button {
     width: 100%;
     margin: 16px auto;
   }

@@ -332,13 +332,11 @@
 
 @media only screen and (max-height:740px) {
   .video-download { top: 900px; }
-  .content { top: 2000px; }
+  .content { top: 1100px; }
 }
 
 @media only screen and (max-height:559px) {
   .video-download {
     top: 1000px;
   }
-
-  .content { top: 2100px; }
 }

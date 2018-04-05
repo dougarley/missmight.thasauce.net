@@ -192,35 +192,30 @@
   background-repeat: repeat-x;
 }
 
+.content {
+  width: 100%;
 
-.video-download {
+  margin-top: -500px;
+
+
+  color: white;
+  font-family: "MegaMan 2 Regular";
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 15px;
+
   position: relative;
   background-color: transparent;
   line-height: 40px;
   z-index: 10;
-  width: 560px;
-  margin: 0 auto;
-  text-align: center;
-  margin-top: -1200px;
   -webkit-transform: translateZ(-2px) scale(3);
           transform: translateZ(-2px) scale(3);
 }
 
-.content {
-  position: relative;
-  background-color: transparent;
-  font-family: "MegaMan 2 Regular";
-  letter-spacing: 10px;
-  text-transform: uppercase;
-  line-height: 40px;
-  z-index: 10;
-  width: 100%;
-  font-size: 15px;
-  text-align: center;
-  color: white;
-  margin-top: 1100px;
-  -webkit-transform: translateZ(-2px) scale(3);
-          transform: translateZ(-2px) scale(3);
+.video-download {
+  width: 560px;
+  margin: 0 auto;
 }
 
 .building {
@@ -301,7 +296,7 @@
   }
 
   .video-download {
-    margin-top: 10px;
+    margin-top: -550px;
     position: absolute;
     top: 100px;
     width: 100%;
@@ -323,20 +318,31 @@
   }
 }
 
-@media only screen and (max-height:740px) {
-  .video-download {
-    top: -900px;
+@media only screen and (max-width: 380px){
+  .content {
+    margin-top: 25vh;
   }
+}
+
+@media only screen and (max-width: 315px){
+  .content {
+    margin-top: 2000px;
+  }
+}
+
+@media only screen and (max-height:740px) {
+.video-download {
+    top: -900px;
 }
 
 
 @media only screen and (max-height:740px) {
-  .video-download { top: 900px; }
+  /* .video-download { top: 900px; } */
   .content { top: 1100px; }
 }
 
 @media only screen and (max-height:559px) {
-  .video-download {
+/*  .video-download {
     top: 1000px;
-  }
+  }*/
 }

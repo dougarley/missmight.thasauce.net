@@ -320,7 +320,7 @@
 
 @media only screen and (max-width: 380px){
   .content {
-    margin-top: 25vh;
+    margin-top: 150vh;
   }
 }
 
@@ -330,19 +330,18 @@
   }
 }
 
-@media only screen and (max-height:740px) {
+/*@media only screen and (max-height:740px) {
 .video-download {
     top: -900px;
 }
 
 
 @media only screen and (max-height:740px) {
-  /* .video-download { top: 900px; } */
   .content { top: 1100px; }
 }
 
 @media only screen and (max-height:559px) {
-/*  .video-download {
+  .video-download {
     top: 1000px;
-  }*/
-}
+  }
+}*/
